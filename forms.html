@@ -7,13 +7,13 @@
             <form action="" method="post" enctype="multipart/form-data">
                 <label for="student_name">Name: </label>
                 <input type="text" name="student_name" id="student_name" placeholder="Input your name here.">
-                <br>
+                <br><br>
                 <label for="email_address">Email: </label>
-                <input type="email" name="email_address" id="email_address" >
+                <input type="email" name="email_address" id="email_address" placeholder="Input your email here.">
                 <br>
-                <textarea name="bio" id="bio" rows="5" cols="35">
-                    Please enter your bio here.
-                </textarea>
+                <br>
+                <textarea name="bio" id="bio" rows="5" cols="35"placeholder="Please enter your bio here." ></textarea>
+
                 <br>
                 <fieldset>
                     <legend>Subjects: </legend>
@@ -26,6 +26,7 @@
                     <input type="checkbox" name="science" id="science" value="Science">
                     <label for="science">Science</label>
                 </fieldset>
+                <br>
                 <fieldset>
                     <legend>Gender:</legend>
                     <input type="radio" name="gender" id="male" value="Male">
@@ -33,12 +34,14 @@
                     <input type="radio" name="gender" id="female" value="Female">
                     <label for="female">Female</label>
                 </fieldset>
+                <br>
                 <label for="classes">Classes: </label>
                 <select name="classes" id="classes">
                     <option value="">--Select Preffered Class--</option>
                     <option value="Physical">Physical</option>
                     <option value="Virtual">Virtual</option>
                 </select>
+                <br>
                 <br>
                 <label for="passport_photo">Passport Photo: </label>
                 <input type="file" id="passport_photo" name="passport_photo" accept="image/*">
